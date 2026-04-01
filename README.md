@@ -1,6 +1,6 @@
 # Pharmacophore Pooling Graph Neural Networks for Molecular Property Prediction
 
-This repository contains the code used to investigate the impact of pharmacophore-based graph reduction and hierarchical pooling on graph neural networks (GNNs) for molecular property prediction.
+This repository contains the code used for pharmacophore-based graph reduction and hierarchical pooling graph neural networks (GNNs) for molecular property prediction.
 
 The project includes pipelines for:
 - Converting SMILES datasets into PyTorch Geometric datasets
@@ -9,7 +9,6 @@ The project includes pipelines for:
 - Hyperparameter optimization and model selection per protein target
 - Explainability analysis using GNNExplainer and EdgeSHAPer and computation of Minimal Informative Sets (MIS)
 - Ablation study
-- Evaluation using analogue series splits
 
 # Graph Reduction
 
@@ -101,8 +100,6 @@ The smallest subset of features whose removal changes the prediction.
 
 These sets allow comparison of the reasoning behavior of different model architectures.
 
-
-# Experiments
 
 ## Ablation Study
 
