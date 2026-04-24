@@ -139,13 +139,6 @@ class PPGAT(torch.nn.Module):
             batch=reduced_batch
         )
 
-        # Pharmacophore-level message passing (without edge_attr)
-        #x = self.gat3(rg_data.x, rg_data.edge_index)
-        #x = F.elu(x)
-        #x = self.gat4(x, rg_data.edge_index)
-        #x = F.elu(x)
-
-        # Pharmacophore-level message passing (without edge_attr)
 
         if rg_data.edge_index.numel() > 0:
             x = self.gat3(rg_data.x, rg_data.edge_index)
