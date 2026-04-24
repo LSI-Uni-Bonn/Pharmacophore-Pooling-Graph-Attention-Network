@@ -113,7 +113,3 @@ Implemented in `ablation_study.py`.
 Dependencies can be installed with:
 
 pip install -r requirements.txt
-
-
-# Citation
-
